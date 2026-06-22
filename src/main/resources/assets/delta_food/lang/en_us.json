@@ -1,0 +1,13 @@
+{
+  "itemGroup.delta_food": "Example Mod Tab",
+  "block.delta_food.example_block": "Example Block",
+  "item.delta_food.example_item": "Example Item",
+
+  "delta_food.configuration.title": "Delta Food Configs",
+  "delta_food.configuration.section.delta_food.common.toml": "Delta Food Configs",
+  "delta_food.configuration.section.delta_food.common.toml.title": "Delta Food Configs",
+  "delta_food.configuration.items": "Item List",
+  "delta_food.configuration.logDirtBlock": "Log Dirt Block",
+  "delta_food.configuration.magicNumberIntroduction": "Magic Number Text",
+  "delta_food.configuration.magicNumber": "Magic Number"
+}
