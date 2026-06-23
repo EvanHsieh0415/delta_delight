@@ -1,25 +1,36 @@
+<div align="center">
 
-Installation information
-=======
+<img width="70%" src="src/main/resources/logo.png">
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+# 三角洲乐事
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+![](https://img.shields.io/badge/Minecraft-Java%20Edition-brightgreen)
+![](https://img.shields.io/badge/Forge-1.20.1-orange)
+![](https://img.shields.io/curseforge/dt/:projectId?logo=log&label=curseforge)
+![](https://img.shields.io/modrinth/dt/:projectId?logo=log&label=modrinth)
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+</div>
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## 简介
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+三角洲乐事是面向 Minecraft 1.20.1 Forge 的农夫乐事附属Mod，将三角洲行动中的食物、饮品和（曾经的）调酒活动带入Minecraft。
+
+- <img src="/src/main/resources/assets/delta_delight/textures/item/coke.png" style="vertical-align: middle; width: 1.2em;"> 丰富的食物与饮料：从香喷喷的炒面到奥莉薇娅香槟，三角洲乐事为玩家提供了多种美味选择，每种食物和饮料都有独特的效果和精致的模型。
+- <img src="/src/main/resources/assets/delta_delight/textures/item/olivia_champagne.png" style="vertical-align: middle; width: 1.2em;"> 创新的调酒系统：玩家可以根据不同的基底、配料和摇晃时间定制完全独一无二的鸡尾酒结果，享受调酒的乐趣。
+- <img src="/src/main/resources/assets/delta_delight/textures/item/heart_of_africa.png" style="vertical-align: middle; width: 1.2em;"> 非洲之心：在钻石矿中寻找这个稀有物品，并与村民进行高价交易，增加了游戏的探索和交易元素。
+
+## 画廊
+
+<img width="400" height="300" alt="Heart Of Africa" src="./docs/gallery-0.png" /> <img width="400" height="300" alt="Placeable Foods" src="./docs/gallery-1.png" />
+<img width="400" height="300" alt="Foods" src="./docs/gallery-2.png" /> <img width="400" height="300" alt="Wines" src="./docs/gallery-3.png" />
+
+## 作者的话
+
+不是，怎么普弓还有蹲撤离点的
+
+## 更多信息
+
+查看三角洲乐事的 [CurseForge] 或是 [Modrinth] 界面以看到更多内容！
+
+[CurseForge]: https://www.curseforge.com/minecraft/mc-mods/delta-delight
+[Modrinth]: https://modrinth.com/mod/delta-delight

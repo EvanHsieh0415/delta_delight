@@ -1,0 +1,38 @@
+{
+  "parent": "delta_food:root",
+  "display": {
+    "icon": {
+      "item": "delta_food:heart_of_africa"
+    },
+    "title": {
+      "translate": "advancement.delta_food.africaheart.title"
+    },
+    "description": {
+      "translate": "advancement.delta_food.africaheart.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_heart_of_africa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delta_food:heart_of_africa"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_heart_of_africa"
+    ]
+  ]
+}
+

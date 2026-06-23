@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:milk/milk_bottle"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "delta_food:coffee",
+    "count": 1
+  },
+  "cookingtime": 200,
+  "experience": 3.0,
+  "container": {
+    "item": "minecraft:glass_bottle"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "ingredients": [
+    {
+      "key": "coke",
+      "color": "#4A1212"
+    },
+    {
+      "key": "lemon_tea",
+      "color": "#FFCA4C"
+    },
+    {
+      "key": "apple_cider",
+      "color": "#F48124"
+    },
+    {
+      "key": "watermelon_juice",
+      "color": "#FF304F"
+    },
+    {
+      "key": "honey_bottle",
+      "color": "#FFBF2A"
+    },
+    {
+      "key": "milk_bottle",
+      "color": "#FFFFFF"
+    },
+    {
+      "key": "dragon_breath",
+      "color": "#B910FF"
+    },
+    {
+      "key": "glow_berries",
+      "color": "#FFC000"
+    },
+    {
+      "key": "golden_carrot",
+      "color": "#FFF600"
+    },
+    {
+      "key": "sea_pickle",
+      "color": "#00BD81"
+    },
+    {
+      "key": "ender_pearl",
+      "color": "#0C475D"
+    },
+    {
+      "key": "chorus_fruit",
+      "color": "#5F3697"
+    },
+    {
+      "key": "gunpowder",
+      "color": "#797979"
+    },
+    {
+      "key": "redstone",
+      "color": "#D63C32"
+    },
+    {
+      "key": "glowstone_dust",
+      "color": "#C50C00"
+    },
+    {
+      "key": "blaze_powder",
+      "color": "#FFB400"
+    }
+  ]
+}

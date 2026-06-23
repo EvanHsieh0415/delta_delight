@@ -1,0 +1,23 @@
+{
+  "type": "delta_food:add_item_with_chance",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:blocks/diamond_ore"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:blocks/deepslate_diamond_ore"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "id": "delta_food:heart_of_africa",
+    "Count": 1
+  },
+  "chance": 0.0025
+}

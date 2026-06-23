@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#delta_food:has_shell",
+  "features": "delta_food:shell",
+  "step": "vegetal_decoration"
+}

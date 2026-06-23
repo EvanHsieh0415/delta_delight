@@ -1,0 +1,7 @@
+{
+  "parent": "delta_food:block/shell_close_block",
+  "transform": {
+    "origin": "center",
+    "rotation": [0, -225, 0]
+  }
+}

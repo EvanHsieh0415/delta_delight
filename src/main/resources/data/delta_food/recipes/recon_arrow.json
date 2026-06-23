@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "pattern": [
+    "RI",
+    "AR"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "delta_food:recon_arrow",
+    "count": 1
+  }
+}
