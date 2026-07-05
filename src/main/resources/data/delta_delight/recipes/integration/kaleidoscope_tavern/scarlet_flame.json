@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:amber_essence"
+    },
+    {
+      "tag": "delta_delight:blaze_powder"
+    },
+    {
+      "tag": "delta_delight:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.amber_essence",
+      "CocktailIngredientKeys": [
+        "blaze_powder",
+        "gunpowder"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.blaze_powder",
+        "item.minecraft.gunpowder"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.scarlet_flame",
+      "CocktailBaseKey": "amber_essence",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:fire_resistance",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:strength",
+          "Amplifier": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

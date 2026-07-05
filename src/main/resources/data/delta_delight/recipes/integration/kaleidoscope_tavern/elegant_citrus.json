@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:juniper_spirit"
+    },
+    {
+      "tag": "delta_delight:watermelon_juice"
+    },
+    {
+      "tag": "delta_delight:dragon_breath"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.juniper_spirit",
+      "CocktailIngredientKeys": [
+        "watermelon_juice",
+        "dragon_breath"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.watermelon_juice",
+        "item.minecraft.dragon_breath"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.elegant_citrus",
+      "CocktailBaseKey": "juniper_spirit",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:instant_health",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:invisibility",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:amber_essence"
+    },
+    {
+      "tag": "delta_delight:lemon_tea"
+    },
+    {
+      "tag": "delta_delight:chorus_fruit"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.amber_essence",
+      "CocktailIngredientKeys": [
+        "lemon_tea",
+        "chorus_fruit"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.lemon_tea",
+        "item.minecraft.chorus_fruit"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.departure",
+      "CocktailBaseKey": "amber_essence",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:regeneration",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:slow_falling",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:herbal_tea"
+    },
+    {
+      "tag": "delta_delight:lemon_tea"
+    },
+    {
+      "tag": "delta_delight:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.herbal_tea",
+      "CocktailIngredientKeys": [
+        "lemon_tea",
+        "gunpowder"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.lemon_tea",
+        "item.minecraft.gunpowder"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.heartbeat",
+      "CocktailBaseKey": "herbal_tea",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:regeneration",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:strength",
+          "Amplifier": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

@@ -14,8 +14,8 @@ public class DeltaDelight {
     public static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public DeltaDelight() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public DeltaDelight(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = context.getModEventBus();
         ModBlocks.BLOCKS.register(modEventBus);
         ModBlockEntityTypes.BLOCK_ENTITY_TYPES.register(modEventBus);
         ModEntityTypes.ENTITY_TYPES.register(modEventBus);

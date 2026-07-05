@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:molasses"
+    },
+    {
+      "tag": "delta_delight:coke"
+    },
+    {
+      "tag": "delta_delight:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.molasses",
+      "CocktailIngredientKeys": [
+        "coke",
+        "gunpowder"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.coke",
+        "item.minecraft.gunpowder"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.thunder_step",
+      "CocktailBaseKey": "molasses",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:speed",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:strength",
+          "Amplifier": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

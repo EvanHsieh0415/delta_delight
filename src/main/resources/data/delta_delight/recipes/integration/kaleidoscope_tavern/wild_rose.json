@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:amber_essence"
+    },
+    {
+      "tag": "delta_delight:dragon_breath"
+    },
+    {
+      "tag": "delta_delight:ender_pearl"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.amber_essence",
+      "CocktailIngredientKeys": [
+        "dragon_breath",
+        "ender_pearl"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.dragon_breath",
+        "item.minecraft.ender_pearl"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.wild_rose",
+      "CocktailBaseKey": "amber_essence",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:invisibility",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:night_vision",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

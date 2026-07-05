@@ -25,10 +25,10 @@ public final class ModItemTags {
     public static final TagKey<Item> BLAZE_POWDER_INGREDIENTS = cocktailIngredient("blaze_powder");
 
     private static TagKey<Item> itemTag(String path) {
-        return ItemTags.create(new ResourceLocation(DeltaDelight.MODID, path));
+        return ItemTags.create(ResourceLocation.fromNamespaceAndPath(DeltaDelight.MODID, path));
     }
 
     private static TagKey<Item> cocktailIngredient(String name) {
-        return itemTag("cocktail/ingredient/" + name);
+        return itemTag(name);
     }
 }

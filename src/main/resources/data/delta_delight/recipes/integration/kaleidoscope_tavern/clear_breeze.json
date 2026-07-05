@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:juniper_spirit"
+    },
+    {
+      "tag": "delta_delight:ender_pearl"
+    },
+    {
+      "tag": "delta_delight:sea_pickle"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.juniper_spirit",
+      "CocktailIngredientKeys": [
+        "ender_pearl",
+        "sea_pickle"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.ender_pearl",
+        "item.minecraft.sea_pickle"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.clear_breeze",
+      "CocktailBaseKey": "juniper_spirit",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:night_vision",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:water_breathing",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}
