@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:juniper_spirit"
+    },
+    {
+      "tag": "delta_delight:watermelon_juice"
+    },
+    {
+      "tag": "delta_delight:milk_bottle"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.juniper_spirit",
+      "CocktailIngredientKeys": [
+        "watermelon_juice",
+        "milk_bottle"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.watermelon_juice",
+        "item.minecraft.milk_bottle"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.tulip",
+      "CocktailBaseKey": "juniper_spirit",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:instant_health",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "farmersdelight:comfort",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

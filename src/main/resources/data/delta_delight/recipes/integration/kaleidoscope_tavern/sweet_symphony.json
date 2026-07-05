@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:juniper_spirit"
+    },
+    {
+      "tag": "delta_delight:honey_bottle"
+    },
+    {
+      "tag": "delta_delight:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.juniper_spirit",
+      "CocktailIngredientKeys": [
+        "honey_bottle",
+        "blaze_powder"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.honey_bottle",
+        "item.minecraft.blaze_powder"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.sweet_symphony",
+      "CocktailBaseKey": "juniper_spirit",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "farmersdelight:nourishment",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:fire_resistance",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

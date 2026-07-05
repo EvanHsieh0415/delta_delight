@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:molasses"
+    },
+    {
+      "tag": "delta_delight:coke"
+    },
+    {
+      "tag": "delta_delight:redstone"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.molasses",
+      "CocktailIngredientKeys": [
+        "coke",
+        "redstone"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.coke",
+        "item.minecraft.redstone"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.ahsarah_style",
+      "CocktailBaseKey": "molasses",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:speed",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:haste",
+          "Amplifier": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

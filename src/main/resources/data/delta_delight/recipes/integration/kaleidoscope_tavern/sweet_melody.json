@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:herbal_tea"
+    },
+    {
+      "tag": "delta_delight:honey_bottle"
+    },
+    {
+      "tag": "delta_delight:milk_bottle"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.herbal_tea",
+      "CocktailIngredientKeys": [
+        "honey_bottle",
+        "milk_bottle"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.honey_bottle",
+        "item.minecraft.milk_bottle"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.sweet_melody",
+      "CocktailBaseKey": "herbal_tea",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "farmersdelight:nourishment",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "farmersdelight:comfort",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

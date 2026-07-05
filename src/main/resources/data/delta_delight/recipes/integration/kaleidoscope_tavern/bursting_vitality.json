@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:molasses"
+    },
+    {
+      "tag": "delta_delight:blaze_powder"
+    },
+    {
+      "tag": "delta_delight:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.molasses",
+      "CocktailIngredientKeys": [
+        "blaze_powder",
+        "honey_bottle"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.blaze_powder",
+        "item.minecraft.honey_bottle"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.bursting_vitality",
+      "CocktailBaseKey": "molasses",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:fire_resistance",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "farmersdelight:nourishment",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

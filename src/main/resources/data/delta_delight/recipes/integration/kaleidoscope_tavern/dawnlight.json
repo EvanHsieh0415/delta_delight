@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:amber_essence"
+    },
+    {
+      "tag": "delta_delight:golden_carrot"
+    },
+    {
+      "tag": "delta_delight:apple_cider"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.amber_essence",
+      "CocktailIngredientKeys": [
+        "golden_carrot",
+        "apple_cider"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.golden_carrot",
+        "item.delta_delight.apple_cider"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.dawnlight",
+      "CocktailBaseKey": "amber_essence",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:jump_boost",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:absorption",
+          "Amplifier": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

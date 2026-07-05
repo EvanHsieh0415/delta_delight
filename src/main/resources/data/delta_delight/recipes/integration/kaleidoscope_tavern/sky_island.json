@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:herbal_tea"
+    },
+    {
+      "tag": "delta_delight:glow_berries"
+    },
+    {
+      "tag": "delta_delight:dragon_breath"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.herbal_tea",
+      "CocktailIngredientKeys": [
+        "glow_berries",
+        "dragon_breath"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.glow_berries",
+        "item.minecraft.dragon_breath"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.sky_island",
+      "CocktailBaseKey": "herbal_tea",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:luck",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:invisibility",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

@@ -8,7 +8,7 @@ modId = "${mod_id}" #mandatory
 version = "${mod_version}" #mandatory
 displayName = "${mod_name}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
-displayURL="https://github.com/2382958980/delta_delight" #optional
+displayURL = "https://github.com/2382958980/delta_delight" #optional
 logoFile = "logo.png" #optional
 #credits="Thanks for this example mod goes to Java" #optional
 authors = "${mod_authors}" #optional
@@ -33,5 +33,12 @@ side = "BOTH"
 modId = "farmersdelight"
 mandatory = true
 versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "kaleidoscope_tavern"
+mandatory = false
+versionRange = "[${kaleidoscope_tavern_version},)"
 ordering = "AFTER"
 side = "BOTH"

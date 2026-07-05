@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:herbal_tea"
+    },
+    {
+      "tag": "delta_delight:glowstone_dust"
+    },
+    {
+      "tag": "delta_delight:ender_pearl"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.herbal_tea",
+      "CocktailIngredientKeys": [
+        "glowstone_dust",
+        "ender_pearl"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.glowstone_dust",
+        "item.minecraft.ender_pearl"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.countless_stars",
+      "CocktailBaseKey": "herbal_tea",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:glowing",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:night_vision",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

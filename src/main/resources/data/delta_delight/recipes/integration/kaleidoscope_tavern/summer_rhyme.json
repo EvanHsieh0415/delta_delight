@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:molasses"
+    },
+    {
+      "tag": "delta_delight:sea_pickle"
+    },
+    {
+      "tag": "delta_delight:chorus_fruit"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.molasses",
+      "CocktailIngredientKeys": [
+        "sea_pickle",
+        "chorus_fruit"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.sea_pickle",
+        "item.minecraft.chorus_fruit"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.summer_rhyme",
+      "CocktailBaseKey": "molasses",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:water_breathing",
+          "Amplifier": 0
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:slow_falling",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

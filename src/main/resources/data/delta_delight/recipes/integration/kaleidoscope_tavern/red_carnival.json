@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:herbal_tea"
+    },
+    {
+      "tag": "delta_delight:redstone"
+    },
+    {
+      "tag": "delta_delight:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.herbal_tea",
+      "CocktailIngredientKeys": [
+        "redstone",
+        "blaze_powder"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.redstone",
+        "item.minecraft.blaze_powder"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.red_carnival",
+      "CocktailBaseKey": "herbal_tea",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:haste",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:fire_resistance",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}

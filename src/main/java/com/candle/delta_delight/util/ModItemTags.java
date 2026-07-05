@@ -29,6 +29,6 @@ public final class ModItemTags {
     }
 
     private static TagKey<Item> cocktailIngredient(String name) {
-        return itemTag("cocktail/ingredient/" + name);
+        return itemTag(name);
     }
 }

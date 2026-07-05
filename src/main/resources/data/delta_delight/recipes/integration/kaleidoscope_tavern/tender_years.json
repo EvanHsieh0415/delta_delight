@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:molasses"
+    },
+    {
+      "tag": "delta_delight:redstone"
+    },
+    {
+      "tag": "delta_delight:apple_cider"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.molasses",
+      "CocktailIngredientKeys": [
+        "redstone",
+        "apple_cider"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.minecraft.redstone",
+        "item.delta_delight.apple_cider"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.tender_years",
+      "CocktailBaseKey": "molasses",
+      "CocktailQuality": "UNCOMMON",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:haste",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:absorption",
+          "Amplifier": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

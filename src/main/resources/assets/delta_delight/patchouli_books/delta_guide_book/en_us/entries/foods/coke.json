@@ -19,7 +19,7 @@
     {
       "type": "patchouli:text",
       "title": "烹饪配方",
-      "text": "$(bold)农夫乐事烹饪锅$()：$(li)水瓶 ×1$(li)墨囊 ×1$(li)糖 ×1$(li)容器：铁锭$(br2)$(o)也是调酒系统的配料之一（标签：delta_delight:cocktail/ingredient/coke）。"
+      "text": "$(bold)农夫乐事烹饪锅$()：$(li)水瓶 ×1$(li)墨囊 ×1$(li)糖 ×1$(li)容器：铁锭$(br2)$(o)也是调酒系统的配料之一（标签：delta_delight:coke）。"
     }
   ]
 }

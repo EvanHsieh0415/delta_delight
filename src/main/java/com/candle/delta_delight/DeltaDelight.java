@@ -27,5 +27,7 @@ public class DeltaDelight {
         ModLootModifiers.register(modEventBus);
         ModMenuTypes.MENU_TYPES.register(modEventBus);
         ModMessages.register();
+
+        var modBus = FMLJavaModLoadingContext.get().getModEventBus();
     }
 }

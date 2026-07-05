@@ -1,0 +1,44 @@
+{
+  "type": "kaleidoscope_tavern:shaker",
+  "ingredients": [
+    {
+      "tag": "delta_delight:juniper_spirit"
+    },
+    {
+      "tag": "delta_delight:apple_cider"
+    },
+    {
+      "tag": "delta_delight:sea_pickle"
+    }
+  ],
+  "result": {
+    "item": "delta_delight:mixed_cocktail",
+    "nbt": {
+      "CocktailBaseNameKey": "item.delta_delight.juniper_spirit",
+      "CocktailIngredientKeys": [
+        "apple_cider",
+        "sea_pickle"
+      ],
+      "CocktailIngredientNameKeys": [
+        "item.delta_delight.apple_cider",
+        "item.minecraft.sea_pickle"
+      ],
+      "CocktailNameKey": "cocktail.delta_delight.mountain_rain",
+      "CocktailBaseKey": "juniper_spirit",
+      "CocktailQuality": "EPIC",
+      "CocktailEffects": [
+        {
+          "Duration": 2400,
+          "Id": "minecraft:absorption",
+          "Amplifier": 1
+        },
+        {
+          "Duration": 2400,
+          "Id": "minecraft:water_breathing",
+          "Amplifier": 0
+        }
+      ]
+    },
+    "count": 1
+  }
+}
